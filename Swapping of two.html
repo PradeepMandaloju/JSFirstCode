@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <title>SwappingOfTwoNum</title>
+</head>
+<body>
+    <h3>Swapping of two numbers</h3>
+    <script>
+       let a=10;
+       let b=33;
+       let c=143;
+       let d=123;
+
+       document.write(`a=${a} b=${b} c=${c} d=${d}`);
+       temp= a;
+       a=b;
+       b=temp;          // normal swap
+
+       [c,d] = [d,c]    // Array destructuring
+
+       document.write(`<br>`);
+       document.write(`a=${a} b=${b} c=${c} d=${d}`);
+       
+
+    </script>
+</body>
+</html>
